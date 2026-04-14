@@ -233,17 +233,9 @@ figV.update_layout(xaxis_title=" ", yaxis_title="[m/s]")
 
 ### Row
 
-```{python}
-#| output: False
-mapa=Map(basemap=basemap_to_tiles(basemaps.OpenStreetMap.Mapnik),
-    center=(19.196974, -96.137838), zoom=7)
-marcador=Marker(location=(19.196974, -96.137838), draggable=True)
-```
-
-```{python}
-#| title: Mapa 
-mapa.add(marcador)
-```
+<div style="text-align:center;">
+  <img src="marejada.gif" width="100%" style="border-radius:12px;">
+</div>
 
 
 ### Row {width=30%}
